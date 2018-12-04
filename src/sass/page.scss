@@ -48,12 +48,3 @@ section{
           }
       }
 }
-footer{
-    width:100%;
-    height:pxTorem(44px);
-    background: #F7F7F7;
-    border-top:pxTorem(1px) solid #ccc;
-    @include box_flex;
-    @include justify(space-around);
-    @include align;
-}

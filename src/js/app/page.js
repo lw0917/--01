@@ -1,0 +1,10 @@
+  $.ajax({
+      url:'/api/page',
+      dataType:'json',
+      data:{
+          id:location.search.split('?')[1].split('=')[1]
+      },
+      success:function(res){
+           console.log(res)
+      }
+  })
